@@ -1,0 +1,15 @@
+/*  
+ * Created By Hikari Software
+ *
+ * Y-Enterprise
+ *
+ */
+
+#include <stdio.h>
+
+int main(int argc, char *argv[])
+{
+
+    return 0;
+}
+

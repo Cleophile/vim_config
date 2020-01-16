@@ -1,0 +1,17 @@
+/*  
+ * Created By Hikari Software
+ *
+ * Y-Enterprise
+ *
+ */
+
+#include <iostream>
+
+// using namespace std;
+
+int main(int argc, char *argv[])
+{
+
+    return 0;
+}
+
