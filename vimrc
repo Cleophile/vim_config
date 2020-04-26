@@ -41,6 +41,7 @@ Plug 'jiangmiao/auto-pairs'
 "Plug 'vim-scripts/taglist.vim'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'Yggdroot/indentLine'
+Plug 'Yggdroot/LeaderF', { 'do': '.\install.bat' }
 Plug 'xuhdev/vim-latex-live-preview'
 Plug 'fatih/vim-go'
 Plug 'racer-rust/vim-racer'
@@ -56,6 +57,7 @@ Plug 'sheerun/vim-polyglot'
 " Plug 'vim-scripts/OmniCppComplete'
 " Plug 'norcalli/nvim-colorizer.lua'
 "Plug 'Valloric/YouCompleteMe', {'do': 'python3 install.py'}
+Plug 'rizzatti/dash.vim'
 call plug#end()
 
 filetype plugin indent on
