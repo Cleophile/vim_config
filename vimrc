@@ -26,7 +26,8 @@ Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
 " Plug 'tpope/vim-commentary'
 Plug 'tyru/open-browser.vim'
-Plug 'vim-scripts/a.vim'
+" Plug 'vim-scripts/a.vim'
+Plug 'Cleophile/a.vim'
 "Plug 'git://git.wincent.com/command-t.git'
 Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plug 'godlygeek/tabular'
@@ -359,7 +360,12 @@ let g:tagbar_type_javascript = {
 
 "配置JavaScript JSBeauty 插件
 nnoremap <F4> :call g:Jsbeautify()<CR>
+
+"配置leader
 let mapleader=" "
+
+"配置Dash
+nnoremap <F6> :Dash<CR>
 
 "配置vim-javascript
 let g:javascript_plugin_jsdoc = 1
@@ -438,4 +444,3 @@ nnoremap <leader>j <Plug>(coc-definition)
 nnoremap <leader>J <Plug>(coc-type-definition)
 nnoremap <leader>f <Plug>(coc-implementation)
 nnoremap <leader>F <Plug>(coc-references)
-
