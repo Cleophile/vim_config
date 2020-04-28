@@ -50,6 +50,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install()}}
 Plug 'luochen1990/rainbow'
 Plug 'lilydjwg/colorizer'
+Plug 'lfv89/vim-interestingwords'
 " Plug 'jackguo380/vim-lsp-cxx-highlight'
 Plug 'easymotion/vim-easymotion'
 Plug '/usr/local/opt/fzf'
