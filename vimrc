@@ -43,7 +43,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'Yggdroot/indentLine'
 Plug 'Yggdroot/LeaderF', { 'do': '.\install.bat' }
-Plug 'xuhdev/vim-latex-live-preview'
+Plug 'lervag/vimtex'
+" Plug 'xuhdev/vim-latex-live-preview'
 Plug 'fatih/vim-go'
 Plug 'racer-rust/vim-racer'
 Plug 'rust-lang/rust.vim'
@@ -58,7 +59,6 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'sheerun/vim-polyglot'
 " Plug 'vim-scripts/OmniCppComplete'
 " Plug 'norcalli/nvim-colorizer.lua'
-"Plug 'Valloric/YouCompleteMe', {'do': 'python3 install.py'}
 Plug 'rizzatti/dash.vim'
 call plug#end()
 
@@ -333,12 +333,17 @@ autocmd BufEnter *.tex set sw=2
 "FOR TAGBAR
 "set updatetime=500
 
-"配置LaTex实时浏览设置
-autocmd Filetype tex setl updatetime=1000
-let g:livepreview_previewer = 'open -a Adobe\ Acrobat'
-nmap <F12> :LLPStartPreview<cr>
+" deprecated: vim-tex-previewer
+" autocmd Filetype tex setl updatetime=1000
+" let g:livepreview_previewer = 'open -a Adobe\ Acrobat'
+" let g:livepreview_previewer = 'evince'
+" let g:livepreview_previewer = 'open -a Preview'
+" let g:livepreview_previewer = 'open -a Skim'
+" Newest version: does not allow so
+" nmap <F12> :LLPStartPreview<cr>
 "let g:Tex_CompileRule_pdf = 'xelatex -synctex=1 --interaction=nonstopmode $*' 
 
+"配置LaTex实时浏览设置
 "配置JavaBrowser
 let g:Javabrowser_Use_Icon = 1
 let g:JavaBrowser_Ctags_Cmd = '/usr/local/Cellar/ctags/5.8_1'
