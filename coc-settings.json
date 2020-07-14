@@ -5,6 +5,10 @@
   "diagnostic.errorSign": "✖",
   "diagnostic.infoSign": "ℹ",
   "diagnostic.hintSign": "➤",
+  "python.jediEnabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.pythonPath": "/Users/wangtianmin/anaconda3/bin/python",
+  "python.formatting.provider": "black",
   "languageserver":{
     "ccls": {
         "command": "ccls",
