@@ -2,6 +2,9 @@
   "suggest.minTriggerInputLength": 1,
   "suggest.timeout": 500,
   "diagnostic.checkCurrentLine": false,
+  "diagnostic.errorSign": "✖",
+  "diagnostic.infoSign": "ℹ",
+  "diagnostic.hintSign": "➤",
   "languageserver":{
     "ccls": {
         "command": "ccls",
@@ -10,7 +13,7 @@
         "initializationOptions":{
           "cache": {
                 "directory": "/tmp/ccls"
-              },
+              }
         }
 
       },
