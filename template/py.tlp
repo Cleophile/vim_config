@@ -6,7 +6,7 @@
 
 def main():
     # Insert Code Here...
-    pass 
+    pass
 
 if __name__ == "__main__":
     main()
