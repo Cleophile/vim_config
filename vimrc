@@ -1,8 +1,8 @@
 call plug#begin()
-"Plug 'gmarik/Vundle.vim'
+" Plug 'gmarik/Vundle.vim'
 " Plug 'davidhalter/jedi-vim'
 " Plug 'ervandew/supertab'
-"Plug 'scrooloose/syntastic'
+" Plug 'scrooloose/syntastic'
 " Plug 'w0rp/ale'
 " ALE: NO configs, thus closed
 Plug 'vim-airline/vim-airline'
@@ -28,18 +28,18 @@ Plug 'tpope/vim-surround'
 Plug 'tyru/open-browser.vim'
 " Plug 'vim-scripts/a.vim'
 Plug 'Cleophile/a.vim'
-"Plug 'git://git.wincent.com/command-t.git'
+" Plug 'git://git.wincent.com/command-t.git'
 Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'scrooloose/nerdtree'
 Plug 'pangloss/vim-javascript'
-"Plug 'tomasr/molokai'
+" Plug 'tomasr/molokai'
 Plug 'morhetz/gruvbox'
 Plug 'suan/vim-instant-markdown'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'jiangmiao/auto-pairs'
-"Plug 'vim-scripts/taglist.vim'
+" Plug 'vim-scripts/taglist.vim'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'Yggdroot/indentLine'
 Plug 'Yggdroot/LeaderF', { 'do': '.\install.bat' }
@@ -258,14 +258,14 @@ let g:gruvbox_improved_strings=1
 let g:gruvbox_improved_warnings=1
 let g:gruvbox_guisp_fallback="bg"
 
-"Set VJDE
+" Set VJDE
 " let g:vjde_completion_key='<c-q>' 
 " let g:vjde_tab_cfu=1
 
-"Setting Nerdtree
+" Setting Nerdtree
 let NERDTreeQuitOnOpen=0 "打开文件时关闭树
 let NERDTreeShowBookmarks=1 "显示书签
-"Cheat-Sheet of Nerdtree
+" Cheat-Sheet of Nerdtree
 map <F3> :NERDTreeToggle<CR>
 map <leader>tl :TlistToggle<cr>
 nnoremap <leader>ma :set mouse=a<cr>
@@ -274,15 +274,6 @@ let NERDSpaceDelims=1
 
 "Setting Tagbar
 nmap <F8> :TagbarToggle<CR>
-
-" Setting Minibuffer
-" let g:miniBufExplMapWindowNavVim = 0
-" let g:miniBufExplMapWindowNavArrows = 0
-" let g:miniBufExplMapCTabSwitchBufs = 0
-" nmap <leader>mmbe :MiniBufExplorer<CR>
-"nmap <leader>mmbc :CMiniBufExplorer<CR>
-"nmap <leader>mmbu :UMiniBufExplorer<CR>
-"nmap <leader>mmbt :TMiniBufExplorer<CR>
 
 "Setting taglist
 let Tlist_Use_Right_Window=1 "taglist 显示在右侧 
@@ -423,8 +414,8 @@ nnoremap <leader>n :bp<cr>
 
 nnoremap <leader>rpt :RainbowParenthesesToggle<CR>
 
-"Vista
-let g:vista_default_executive = 'ctags'
+" Vista
+" let g:vista_default_executive = 'ctags'
 
 "Rainbow
 let g:rainbow_active = 1
