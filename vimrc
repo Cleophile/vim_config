@@ -33,6 +33,7 @@ Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'pangloss/vim-javascript'
 " Plug 'tomasr/molokai'
 Plug 'morhetz/gruvbox'
@@ -243,14 +244,14 @@ map <F5> :call CompileRunGcc()<CR>
         endif
     endfunc
 
-"Setting Jedi Plugin
+" Setting Jedi Plugin
 " let g:SuperTabDefaultCompletionType=""
 " let g:jedi#popup_on_dot=0
 
 " ASM as the form of NASM
 let g:asmsyntax="nasm"
 
-"Setting GruvBox Color Scheme
+" Setting GruvBox Color Scheme
 set bg=dark
 let g:gruvbox_contrast_dark="hard"
 let g:gruvbox_italic=1
@@ -272,14 +273,16 @@ nnoremap <leader>ma :set mouse=a<cr>
 nnoremap <leader>mu :set mouse=<cr>
 let NERDSpaceDelims=1
 
-"Setting Tagbar
+" Setting Tagbar
 nmap <F8> :TagbarToggle<CR>
 
-"Setting taglist
+" Setting taglist
 let Tlist_Use_Right_Window=1 "taglist 显示在右侧 
 let Tlist_Exit_OnlyWindow=1 "taglist 只剩下一个窗口时，自动关闭
 let Tlist_File_Fold_Auto_Close=1
 map tl :TlistToggle
+
+" Show and Source vimrc
 nnoremap ev :vsplit $MYVIMRC
 nnoremap sv :source $MYVIMRC
 
