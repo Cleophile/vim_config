@@ -445,3 +445,6 @@ nnoremap <leader>j <Plug>(coc-definition)
 nnoremap <leader>J <Plug>(coc-type-definition)
 nnoremap <leader>f <Plug>(coc-implementation)
 nnoremap <leader>F <Plug>(coc-references)
+
+nnoremap * *``
+nnoremap # #``
