@@ -10,6 +10,10 @@
   "python.pythonPath": "/Users/wangtianmin/anaconda3/bin/python",
   "python.formatting.provider": "black",
   "tsserver.npm": "/usr/local/bin/cnpm",
+  "explorer.keyMappings": {
+    "gf": "gotoSource:file",
+    "gb": "gotoSource:buffer"
+  },
   "languageserver":{
     "ccls": {
         "command": "ccls",
