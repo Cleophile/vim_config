@@ -1,5 +1,4 @@
 call plug#begin()
-" Plug 'gmarik/Vundle.vim'
 " Plug 'davidhalter/jedi-vim'
 " Plug 'ervandew/supertab'
 " Plug 'scrooloose/syntastic'
