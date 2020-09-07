@@ -49,7 +49,7 @@ Plug 'lervag/vimtex'
 Plug 'fatih/vim-go'
 Plug 'racer-rust/vim-racer'
 Plug 'rust-lang/rust.vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 Plug 'luochen1990/rainbow'
 Plug 'lilydjwg/colorizer'
 Plug 'lfv89/vim-interestingwords'
