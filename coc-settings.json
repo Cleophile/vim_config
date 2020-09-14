@@ -16,24 +16,30 @@
   },
   "languageserver":{
     "ccls": {
-        "command": "ccls",
-        "filetypes": ["c", "cpp", "objc", "objcpp"],
-        "rootPatterns": [".ccls", "compile_commands.json", ".vim/", ".git/", ".hg/"],
-        "initializationOptions":{
-          "cache": {
-                "directory": "/tmp/ccls"
-              },
-              "clang": {
-                "extraArgs": [
-                  "-isystem/usr/local/Cellar/llvm/10.0.0_3/include/c++/v1/",
-                  "-isystem/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"
-                ]
-              }
-        }
-
-      },
-
-
+            "command": "ccls",
+            "filetypes": ["c", "cpp", "objc", "objcpp"],
+            "args": ["-v=-1"],
+            "rootPatterns": [".ccls", "compile_commands.json", ".git/"],
+            "initializationOptions": {
+                "cache": {
+                    "directory": "/tmp/ccls"
+                },
+                "clang": {
+                    "extraArgs": [
+                        "-Wno-unused-variable",
+                        "-isystem/Library/Developer/CommandLineTools/usr/include/c++/v1",
+                        "-isystem/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include",
+                        "-isystem/opt/emsdk/upstream/emscripten/system/include"
+                    ],
+                    "excludeArgs": ["-Werror"]
+                },
+                "diagnostic": {
+                    "onOpen": 1,
+                    "onChange": 1,
+                    "onSave": 1
+                }
+            }
+        },
     "golang": {
       "command": "gopls",
       "rootPatterns": ["go.mod"],
