@@ -49,7 +49,7 @@ Plug 'lervag/vimtex'
 Plug 'fatih/vim-go'
 Plug 'racer-rust/vim-racer'
 Plug 'rust-lang/rust.vim'
-Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'luochen1990/rainbow'
 Plug 'lilydjwg/colorizer'
 Plug 'lfv89/vim-interestingwords'
@@ -422,6 +422,18 @@ nnoremap <leader>rpt :RainbowParenthesesToggle<CR>
 
 "Rainbow
 let g:rainbow_active = 1
+
+let s:coc_lsp = {
+            \   'python': 'coc-python',
+            \   'json': 'coc-json',
+            \   'vim': 'coc-vimlsp',
+            \   'xml': 'coc-xml',
+            \   'yaml': 'coc-yaml',
+            \   'c': 'languageserver.ccls',
+            \   'cpp': 'languageserver.ccls',
+            \   'sh': 'languageserver.bash',
+            \   'Dockerfile': 'languageserver.dockerfile',
+            \}
 
 " coc-snippets
 " Use <C-j> for jump to next placeholder, it's default of coc.nvim
