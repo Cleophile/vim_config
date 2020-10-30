@@ -300,6 +300,9 @@ let g:vim_markdown_frontmatter = 1
 let g:vim_markdown_toml_frontmatter = 1
 let g:vim_markdown_json_frontmatter = 1
 
+"Setting instant markdown
+let g:instant_markdown_mathjax = 1
+
 "设置光标形状
 " Won't work in terminal
 " set guicursor=n-v-c:block-Cursor/lCursor,ve:ver35-Cursor,o:hor50-Cursor,i:ver10-iCursor-blinkwait300-binkon200-blinkoff150,r-cr:hor20-Cursor/lCursor,sm:block-Cursor-blinkwait175-blinkoff150-blinkon175
@@ -423,17 +426,17 @@ nnoremap <leader>rpt :RainbowParenthesesToggle<CR>
 "Rainbow
 let g:rainbow_active = 1
 
-let s:coc_lsp = {
-            \   'python': 'coc-python',
-            \   'json': 'coc-json',
-            \   'vim': 'coc-vimlsp',
-            \   'xml': 'coc-xml',
-            \   'yaml': 'coc-yaml',
-            \   'c': 'languageserver.ccls',
-            \   'cpp': 'languageserver.ccls',
-            \   'sh': 'languageserver.bash',
-            \   'Dockerfile': 'languageserver.dockerfile',
-            \}
+" let s:coc_lsp = {
+            " \   'python': 'coc-python',
+            " \   'json': 'coc-json',
+            " \   'vim': 'coc-vimlsp',
+            " \   'xml': 'coc-xml',
+            " \   'yaml': 'coc-yaml',
+            " \   'c': 'languageserver.ccls',
+            " \   'cpp': 'languageserver.ccls',
+            " \   'sh': 'languageserver.bash',
+            " \   'Dockerfile': 'languageserver.dockerfile',
+            " \}
 
 " coc-snippets
 " Use <C-j> for jump to next placeholder, it's default of coc.nvim
