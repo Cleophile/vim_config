@@ -43,7 +43,7 @@ Plug 'jiangmiao/auto-pairs'
 " Plug 'vim-scripts/taglist.vim'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'Yggdroot/indentLine'
-Plug 'Yggdroot/LeaderF', { 'do': '.\install.bat' }
+Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
 Plug 'lervag/vimtex'
 " Plug 'xuhdev/vim-latex-live-preview'
 Plug 'fatih/vim-go'
