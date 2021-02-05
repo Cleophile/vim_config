@@ -476,3 +476,5 @@ nnoremap # #``
 
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+nnoremap <leader>s :Leaderf rg --cword<CR>
