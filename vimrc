@@ -478,3 +478,5 @@ inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 nnoremap <leader>s :Leaderf rg --cword<CR>
+
+autocmd FileType markdown let g:indentLine_enabled=0
