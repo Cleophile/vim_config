@@ -171,24 +171,21 @@ autocmd InsertEnter * se cul
 
 "新建编程文档语言自动模板启动
 "依次向下：C Python Java HTML C++
-"模板根目录位置/Users/wangtianmin/.vim/template/*.tlp
-autocmd BufNewFile *.c 0r /Users/wangtianmin/.vim/template/c.tlp
-autocmd BufNewFile *.py 0r /Users/wangtianmin/.vim/template/py.tlp
-autocmd BufNewFile *.java 0r /Users/wangtianmin/.vim/template/java.tlp
-autocmd BufNewFile *.pyw 0r /Users/wangtianmin/.vim/template/py.tlp
-autocmd BufNewFile *.html 0r /Users/wangtianmin/.vim/template/html.tlp
-autocmd BufNewFile *.cpp 0r /Users/wangtianmin/.vim/template/cpp.tlp
-autocmd BufNewFile *.cc 0r /Users/wangtianmin/.vim/template/cpp.tlp
-autocmd BufNewFile CMakeLists.txt 0r /Users/wangtianmin/.vim/template/cmakelist.tlp
+autocmd BufNewFile *.c 0r $HOME/.vim/template/c.tlp
+autocmd BufNewFile *.py 0r $HOME/.vim/template/py.tlp
+autocmd BufNewFile *.java 0r $HOME/.vim/template/java.tlp
+autocmd BufNewFile *.pyw 0r $HOME/.vim/template/py.tlp
+autocmd BufNewFile *.html 0r $HOME/.vim/template/html.tlp
+autocmd BufNewFile *.cpp 0r $HOME/.vim/template/cpp.tlp
+autocmd BufNewFile *.cc 0r $HOME/.vim/template/cpp.tlp
+autocmd BufNewFile CMakeLists.txt 0r $HOME/.vim/template/cmakelist.tlp
 
 "显示输入的命令
 set showcmd
 
 "被分割窗口之间显示空白
 set fillchars=vert:/
-
 " set fillchars=stl:/
-
 " set fillchars=stlnc:/
 
 "行内替换
@@ -201,6 +198,7 @@ set whichwrap+=<,>,h,l
 set tags=tags
 
 colorscheme gruvbox
+" colorscheme molokai
 
 "设置更好的删除
 set backspace=2
@@ -387,7 +385,7 @@ let g:rustfmt_autosave = 1
 "" 手动补全和定义跳转
 set hidden
 "" 这一行指的是你编译出来的racer所在的路径
-let g:racer_cmd = "/Users/wangtianmin/.cargo/bin/racer"
+let g:racer_cmd = "$HOME/.cargo/bin/racer"
 
 " ALE
 " let b:ale_fixers = {'javascript': ['prettier', 'eslint'],'python':['autopep8'],'*':['prettier', 'eslint']}
