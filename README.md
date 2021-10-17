@@ -40,6 +40,7 @@ Use `pip install`
 Use `npm install`
 
 - instant-markdown-d(if not installed with python, recommended)
+- npm install -g bash-language-server
 
 ### COC packages
 
