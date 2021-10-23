@@ -22,7 +22,6 @@ Nearly all if not all of them can be found in `brew`, `apt-get`, etc.
 
 - node(recommend nvm)  
 - ccls  
-- black  
 - clang-format  
 - tmux  
 - gflags  
@@ -32,7 +31,11 @@ Nearly all if not all of them can be found in `brew`, `apt-get`, etc.
 
 Use `pip install`
 
+- black
+- mypy
 - jedi(if use jedi for auto-complete)
+- data-science-types (Currently archieved, waiting for update)
+- pandas-stubs (Currently under development, need type specifications for pandas)
 - instant-markdown-d(if not installed with npm, not recommended)
 
 ### JS packages
@@ -53,6 +56,7 @@ Use vim command `:CocInstall <package>`
 - coc-vetur
 - coc-json
 - coc-css
+- coc-explorer
 
 ## Installation Step
 1. Check if your VIM version>=8.0, if not, you need to install VIM8 and you may have to uninstall the older version of VIM  
