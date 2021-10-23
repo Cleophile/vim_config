@@ -37,20 +37,22 @@ Use `pip install`
 
 ### JS packages
 
-Use `npm install`
+Use `npm install -g`
 
-- instant-markdown-d(if not installed with python, recommended)
-- npm install -g bash-language-server
+- instant-markdown-d (if not installed with python, recommended)
+- bash-language-server
 
 ### COC packages
 
 Use vim command `:CocInstall <package>`
 
 - coc-pyright
-- coc-json
 - coc-word
 - coc-emoji
 - coc-tsserver
+- coc-vetur
+- coc-json
+- coc-css
 
 ## Installation Step
 1. Check if your VIM version>=8.0, if not, you need to install VIM8 and you may have to uninstall the older version of VIM  
